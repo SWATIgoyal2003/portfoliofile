@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.contanier h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+
+}
+.para{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 36vw;
+
+
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    color: white;
+
+}
+.box .card{
+
+    border: 2px solid #333;
+    box-shadow: 4px 4px 12px rgba(72, 68, 68, 0.3);
+    margin-top: 6vw;
+    text-align: center;
+    
+}
+.card div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+.card .text{
+    font-size: 20px;
+    width: 37vw;
+    color: white;
+}
+.card .photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

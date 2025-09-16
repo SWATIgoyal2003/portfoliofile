@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    
+    text-align: Center;
+    margin: auto;
+    width: 39vw;
+    
+}
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.firstSection .left{
+width: 30vw;
+}
+.firstSection .right img {
+    width: 24vw;
+    height: 14vw;
+}
+
+.secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.secondSection .left img{
+    width: 24vw;
+    height: 14vw;
+}
+.secondSection .right{
+    width: 30vw;
+}
+
+.thirdSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.thirdSection .left{
+    width: 30vw;
+    
+}
+.thirdSection .right img{
+width: 24vw;
+height: 14vw;
+}
+.mainSection  button{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border: white;
+
+}

@@ -1,0 +1,27 @@
+.contanier h1 {
+    text-align: center;
+    font-size: 50px;
+
+
+}
+
+.para {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 36vw;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    margin-left: 12vw;
+    margin-top: 4vw;
+
+}
+
+.button {
+    width: 6vw;
+    height: 2.3vw;
+    margin: 2px;
+}

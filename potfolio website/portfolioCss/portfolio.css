@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(8, 8, 8);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    justify-content: space-between;
+    width: 1110px;
+    height: 70px;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 17px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list-right {
+    display: flex;
+
+}
+
+.nav-list-left {
+    display: flex;
+
+}
+
+.nav-list-left li img {
+    width: 15px;
+    height: 15px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSection {
+    display: flex;
+    /* width: 1280px; */
+    height: 35vw;
+    color: white; 
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+
+.rightsection {
+    width: 426px;
+}
+
+.heading {
+    font-size: 50px;
+    width: 426px;
+
+}
+
+.button {
+    background-color: rgb(62, 143, 0);
+    width: 15vw;
+    height: 3vw;
+    font-size: 20px;
+    color: white;
+}
+.secondsection p {
+
+    margin-left: 30%;
+    color: white;
+    
+}
+.companylogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companylogo img {
+    width: 93px;
+    height: 44px;
+    padding: 15px;
+    margin: 12px, 14px;
+}
