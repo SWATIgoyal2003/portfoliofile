@@ -1,0 +1,17 @@
+.body{
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    display: inline-block;
+    animation: scroll-up 10s linear infinite;
+}
+@keyframes scroll-up{
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
