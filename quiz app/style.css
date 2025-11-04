@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quiz{
+    
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.question ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+.answer{
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.answer:hover{
+    background-color: rgb(108, 129, 129);
+}
